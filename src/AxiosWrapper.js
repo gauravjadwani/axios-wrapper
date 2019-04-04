@@ -57,4 +57,13 @@ export default class ApiHandler {
       data: bodyPayload
     });
   }
+
+  put(path, bodyPayload = false) {
+    return this.service.request({
+      method: "PUT",
+      url: path,
+      responseType: "json",
+      data: bodyPayload
+    });
+  }
 }
