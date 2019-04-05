@@ -1,14 +1,10 @@
 {
   "name": "axios-wrapper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "main": "build/index.js",
-  "peerDependencies": {
-    "react": "^16.8.6"
-  },
   "dependencies": {
-    "axios": "^0.18.0",
-    "react": "^16.8.6"
+    "axios": "^0.18.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
