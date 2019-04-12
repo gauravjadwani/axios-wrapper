@@ -20,7 +20,7 @@ export default class ApiHandler {
   }
   // default handle error function
   handleError(error) {
-    return error;
+    return Promise.reject(error);
   }
 
   get(path) {
