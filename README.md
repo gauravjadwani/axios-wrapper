@@ -19,7 +19,7 @@ bodyFormData.set("client_id", "XYZ");//constructing body of the request
 apiObject.post(baseurl + "/verifyclient/", bodyFormData)
   .then(function(response) {
     //success
-  }).catch(function (error)
+  }).catch(function (error) {
   //catch errors
   }
 ```
